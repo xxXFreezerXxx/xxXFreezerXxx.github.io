@@ -1,0 +1,1 @@
+fetch("./pages.json").then(res=>res.json()).then(res=>console.log(res[0]));
